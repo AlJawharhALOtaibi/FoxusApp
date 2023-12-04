@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A58CC5E42B1E1DA00010FBEC /* FoxusAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58CC5E32B1E1DA00010FBEC /* FoxusAppApp.swift */; };
+		A58CC5E62B1E1DA00010FBEC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58CC5E52B1E1DA00010FBEC /* ContentView.swift */; };
+		A58CC5E82B1E1DA10010FBEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A58CC5E72B1E1DA10010FBEC /* Assets.xcassets */; };
+		A58CC5EB2B1E1DA10010FBEC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A58CC5EA2B1E1DA10010FBEC /* Preview Assets.xcassets */; };
+		A58CC5ED2B1E1DA10010FBEC /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58CC5EC2B1E1DA10010FBEC /* Persistence.swift */; };
+		A58CC5F02B1E1DA10010FBEC /* FoxusApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A58CC5EE2B1E1DA10010FBEC /* FoxusApp.xcdatamodeld */; };
+		A58CC5FC2B1E1DA10010FBEC /* FoxusAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58CC5FB2B1E1DA10010FBEC /* FoxusAppTests.swift */; };
+		A58CC6062B1E1DA10010FBEC /* FoxusAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58CC6052B1E1DA10010FBEC /* FoxusAppUITests.swift */; };
+		A58CC6082B1E1DA10010FBEC /* FoxusAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58CC6072B1E1DA10010FBEC /* FoxusAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A58CC5F82B1E1DA10010FBEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A58CC5D82B1E1DA00010FBEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A58CC5DF2B1E1DA00010FBEC;
+			remoteInfo = FoxusApp;
+		};
+		A58CC6022B1E1DA10010FBEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A58CC5D82B1E1DA00010FBEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A58CC5DF2B1E1DA00010FBEC;
+			remoteInfo = FoxusApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A58CC5E02B1E1DA00010FBEC /* FoxusApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoxusApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A58CC5E32B1E1DA00010FBEC /* FoxusAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoxusAppApp.swift; sourceTree = "<group>"; };
+		A58CC5E52B1E1DA00010FBEC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A58CC5E72B1E1DA10010FBEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A58CC5EA2B1E1DA10010FBEC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A58CC5EC2B1E1DA10010FBEC /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		A58CC5EF2B1E1DA10010FBEC /* FoxusApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FoxusApp.xcdatamodel; sourceTree = "<group>"; };
+		A58CC5F12B1E1DA10010FBEC /* FoxusApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FoxusApp.entitlements; sourceTree = "<group>"; };
+		A58CC5F22B1E1DA10010FBEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A58CC5F72B1E1DA10010FBEC /* FoxusAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoxusAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A58CC5FB2B1E1DA10010FBEC /* FoxusAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoxusAppTests.swift; sourceTree = "<group>"; };
+		A58CC6012B1E1DA10010FBEC /* FoxusAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoxusAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A58CC6052B1E1DA10010FBEC /* FoxusAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoxusAppUITests.swift; sourceTree = "<group>"; };
+		A58CC6072B1E1DA10010FBEC /* FoxusAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoxusAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A58CC5DD2B1E1DA00010FBEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A58CC5F42B1E1DA10010FBEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A58CC5FE2B1E1DA10010FBEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A58CC5D72B1E1DA00010FBEC = {
+			isa = PBXGroup;
+			children = (
+				A58CC5E22B1E1DA00010FBEC /* FoxusApp */,
+				A58CC5FA2B1E1DA10010FBEC /* FoxusAppTests */,
+				A58CC6042B1E1DA10010FBEC /* FoxusAppUITests */,
+				A58CC5E12B1E1DA00010FBEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A58CC5E12B1E1DA00010FBEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A58CC5E02B1E1DA00010FBEC /* FoxusApp.app */,
+				A58CC5F72B1E1DA10010FBEC /* FoxusAppTests.xctest */,
+				A58CC6012B1E1DA10010FBEC /* FoxusAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A58CC5E22B1E1DA00010FBEC /* FoxusApp */ = {
+			isa = PBXGroup;
+			children = (
+				A58CC5E32B1E1DA00010FBEC /* FoxusAppApp.swift */,
+				A58CC5E52B1E1DA00010FBEC /* ContentView.swift */,
+				A58CC5E72B1E1DA10010FBEC /* Assets.xcassets */,
+				A58CC5EC2B1E1DA10010FBEC /* Persistence.swift */,
+				A58CC5F12B1E1DA10010FBEC /* FoxusApp.entitlements */,
+				A58CC5F22B1E1DA10010FBEC /* Info.plist */,
+				A58CC5EE2B1E1DA10010FBEC /* FoxusApp.xcdatamodeld */,
+				A58CC5E92B1E1DA10010FBEC /* Preview Content */,
+			);
+			path = FoxusApp;
+			sourceTree = "<group>";
+		};
+		A58CC5E92B1E1DA10010FBEC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A58CC5EA2B1E1DA10010FBEC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A58CC5FA2B1E1DA10010FBEC /* FoxusAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A58CC5FB2B1E1DA10010FBEC /* FoxusAppTests.swift */,
+			);
+			path = FoxusAppTests;
+			sourceTree = "<group>";
+		};
+		A58CC6042B1E1DA10010FBEC /* FoxusAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A58CC6052B1E1DA10010FBEC /* FoxusAppUITests.swift */,
+				A58CC6072B1E1DA10010FBEC /* FoxusAppUITestsLaunchTests.swift */,
+			);
+			path = FoxusAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A58CC5DF2B1E1DA00010FBEC /* FoxusApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A58CC60B2B1E1DA10010FBEC /* Build configuration list for PBXNativeTarget "FoxusApp" */;
+			buildPhases = (
+				A58CC5DC2B1E1DA00010FBEC /* Sources */,
+				A58CC5DD2B1E1DA00010FBEC /* Frameworks */,
+				A58CC5DE2B1E1DA00010FBEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoxusApp;
+			productName = FoxusApp;
+			productReference = A58CC5E02B1E1DA00010FBEC /* FoxusApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A58CC5F62B1E1DA10010FBEC /* FoxusAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A58CC60E2B1E1DA10010FBEC /* Build configuration list for PBXNativeTarget "FoxusAppTests" */;
+			buildPhases = (
+				A58CC5F32B1E1DA10010FBEC /* Sources */,
+				A58CC5F42B1E1DA10010FBEC /* Frameworks */,
+				A58CC5F52B1E1DA10010FBEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A58CC5F92B1E1DA10010FBEC /* PBXTargetDependency */,
+			);
+			name = FoxusAppTests;
+			productName = FoxusAppTests;
+			productReference = A58CC5F72B1E1DA10010FBEC /* FoxusAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A58CC6002B1E1DA10010FBEC /* FoxusAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A58CC6112B1E1DA10010FBEC /* Build configuration list for PBXNativeTarget "FoxusAppUITests" */;
+			buildPhases = (
+				A58CC5FD2B1E1DA10010FBEC /* Sources */,
+				A58CC5FE2B1E1DA10010FBEC /* Frameworks */,
+				A58CC5FF2B1E1DA10010FBEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A58CC6032B1E1DA10010FBEC /* PBXTargetDependency */,
+			);
+			name = FoxusAppUITests;
+			productName = FoxusAppUITests;
+			productReference = A58CC6012B1E1DA10010FBEC /* FoxusAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A58CC5D82B1E1DA00010FBEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A58CC5DF2B1E1DA00010FBEC = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					A58CC5F62B1E1DA10010FBEC = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = A58CC5DF2B1E1DA00010FBEC;
+					};
+					A58CC6002B1E1DA10010FBEC = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = A58CC5DF2B1E1DA00010FBEC;
+					};
+				};
+			};
+			buildConfigurationList = A58CC5DB2B1E1DA00010FBEC /* Build configuration list for PBXProject "FoxusApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A58CC5D72B1E1DA00010FBEC;
+			productRefGroup = A58CC5E12B1E1DA00010FBEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A58CC5DF2B1E1DA00010FBEC /* FoxusApp */,
+				A58CC5F62B1E1DA10010FBEC /* FoxusAppTests */,
+				A58CC6002B1E1DA10010FBEC /* FoxusAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A58CC5DE2B1E1DA00010FBEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A58CC5EB2B1E1DA10010FBEC /* Preview Assets.xcassets in Resources */,
+				A58CC5E82B1E1DA10010FBEC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A58CC5F52B1E1DA10010FBEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A58CC5FF2B1E1DA10010FBEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A58CC5DC2B1E1DA00010FBEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A58CC5ED2B1E1DA10010FBEC /* Persistence.swift in Sources */,
+				A58CC5E62B1E1DA00010FBEC /* ContentView.swift in Sources */,
+				A58CC5E42B1E1DA00010FBEC /* FoxusAppApp.swift in Sources */,
+				A58CC5F02B1E1DA10010FBEC /* FoxusApp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A58CC5F32B1E1DA10010FBEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A58CC5FC2B1E1DA10010FBEC /* FoxusAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A58CC5FD2B1E1DA10010FBEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A58CC6082B1E1DA10010FBEC /* FoxusAppUITestsLaunchTests.swift in Sources */,
+				A58CC6062B1E1DA10010FBEC /* FoxusAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A58CC5F92B1E1DA10010FBEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A58CC5DF2B1E1DA00010FBEC /* FoxusApp */;
+			targetProxy = A58CC5F82B1E1DA10010FBEC /* PBXContainerItemProxy */;
+		};
+		A58CC6032B1E1DA10010FBEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A58CC5DF2B1E1DA00010FBEC /* FoxusApp */;
+			targetProxy = A58CC6022B1E1DA10010FBEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A58CC6092B1E1DA10010FBEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A58CC60A2B1E1DA10010FBEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A58CC60C2B1E1DA10010FBEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FoxusApp/FoxusApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FoxusApp/Preview Content\"";
+				DEVELOPMENT_TEAM = V6P9B428J2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FoxusApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iOS.FoxusApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A58CC60D2B1E1DA10010FBEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FoxusApp/FoxusApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FoxusApp/Preview Content\"";
+				DEVELOPMENT_TEAM = V6P9B428J2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FoxusApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iOS.FoxusApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A58CC60F2B1E1DA10010FBEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V6P9B428J2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iOS.FoxusAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoxusApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FoxusApp";
+			};
+			name = Debug;
+		};
+		A58CC6102B1E1DA10010FBEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V6P9B428J2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iOS.FoxusAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoxusApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FoxusApp";
+			};
+			name = Release;
+		};
+		A58CC6122B1E1DA10010FBEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V6P9B428J2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iOS.FoxusAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FoxusApp;
+			};
+			name = Debug;
+		};
+		A58CC6132B1E1DA10010FBEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V6P9B428J2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iOS.FoxusAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FoxusApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A58CC5DB2B1E1DA00010FBEC /* Build configuration list for PBXProject "FoxusApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A58CC6092B1E1DA10010FBEC /* Debug */,
+				A58CC60A2B1E1DA10010FBEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A58CC60B2B1E1DA10010FBEC /* Build configuration list for PBXNativeTarget "FoxusApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A58CC60C2B1E1DA10010FBEC /* Debug */,
+				A58CC60D2B1E1DA10010FBEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A58CC60E2B1E1DA10010FBEC /* Build configuration list for PBXNativeTarget "FoxusAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A58CC60F2B1E1DA10010FBEC /* Debug */,
+				A58CC6102B1E1DA10010FBEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A58CC6112B1E1DA10010FBEC /* Build configuration list for PBXNativeTarget "FoxusAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A58CC6122B1E1DA10010FBEC /* Debug */,
+				A58CC6132B1E1DA10010FBEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A58CC5EE2B1E1DA10010FBEC /* FoxusApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A58CC5EF2B1E1DA10010FBEC /* FoxusApp.xcdatamodel */,
+			);
+			currentVersion = A58CC5EF2B1E1DA10010FBEC /* FoxusApp.xcdatamodel */;
+			path = FoxusApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A58CC5D82B1E1DA00010FBEC /* Project object */;
+}
