@@ -1,18 +1,14 @@
+//import SwiftUI
 //
-//  ContentView.swift
-//  FoxusApp
+//struct ContentView: View {
+//    var body: some View {
+//        Home(calendar: Calendar(identifier: .gregorian))
+//    }
+//}
 //
-//  Created by AlJawharh AlOtaibi on 21/05/1445 AH.
+//struct ContentView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ContentView()
+//    }
+//}
 //
-
-import SwiftUI
-
-struct ContentView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
-
-#Preview {
-    ContentView()
-}

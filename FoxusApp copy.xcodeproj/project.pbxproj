@@ -12,9 +12,19 @@
 		A58CC5E82B1E1DA10010FBEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A58CC5E72B1E1DA10010FBEC /* Assets.xcassets */; };
 		A58CC5EB2B1E1DA10010FBEC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A58CC5EA2B1E1DA10010FBEC /* Preview Assets.xcassets */; };
 		A58CC5F02B1E1DA10010FBEC /* FoxusApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A58CC5EE2B1E1DA10010FBEC /* FoxusApp.xcdatamodeld */; };
+		A58CC5FC2B1E1DA10010FBEC /* FoxusAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58CC5FB2B1E1DA10010FBEC /* FoxusAppTests.swift */; };
+		A58CC6062B1E1DA10010FBEC /* FoxusAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58CC6052B1E1DA10010FBEC /* FoxusAppUITests.swift */; };
+		A58CC6082B1E1DA10010FBEC /* FoxusAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58CC6072B1E1DA10010FBEC /* FoxusAppUITestsLaunchTests.swift */; };
 		A58CC6152B1E1F310010FBEC /* OnBoarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58CC6142B1E1F310010FBEC /* OnBoarding.swift */; };
 		A58CC6172B1E1F640010FBEC /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58CC6162B1E1F640010FBEC /* DataController.swift */; };
 		A58CC6192B1F3CE90010FBEC /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58CC6182B1F3CE90010FBEC /* MainPage.swift */; };
+		A58CC61D2B1F64BD0010FBEC /* tettete.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58CC61C2B1F64BD0010FBEC /* tettete.swift */; };
+		A58CC61F2B1F6EC30010FBEC /* CalenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58CC61E2B1F6EC30010FBEC /* CalenderView.swift */; };
+		A58CC6212B1F70DC0010FBEC /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58CC6202B1F70DC0010FBEC /* Task.swift */; };
+		A58CC6232B1F712E0010FBEC /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58CC6222B1F712E0010FBEC /* Home.swift */; };
+		A58CC6272B1F71F30010FBEC /* CalendarPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58CC6262B1F71F30010FBEC /* CalendarPage.swift */; };
+		A58CC6292B1F72160010FBEC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58CC6282B1F72160010FBEC /* ContentView.swift */; };
+		A58CC62B2B1F72410010FBEC /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58CC62A2B1F72410010FBEC /* TaskViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,10 +54,20 @@
 		A58CC5F12B1E1DA10010FBEC /* FoxusApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FoxusApp.entitlements; sourceTree = "<group>"; };
 		A58CC5F22B1E1DA10010FBEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A58CC5F72B1E1DA10010FBEC /* FoxusAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoxusAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A58CC5FB2B1E1DA10010FBEC /* FoxusAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoxusAppTests.swift; sourceTree = "<group>"; };
 		A58CC6012B1E1DA10010FBEC /* FoxusAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoxusAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A58CC6052B1E1DA10010FBEC /* FoxusAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoxusAppUITests.swift; sourceTree = "<group>"; };
+		A58CC6072B1E1DA10010FBEC /* FoxusAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoxusAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A58CC6142B1E1F310010FBEC /* OnBoarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding.swift; sourceTree = "<group>"; };
 		A58CC6162B1E1F640010FBEC /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		A58CC6182B1F3CE90010FBEC /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
+		A58CC61C2B1F64BD0010FBEC /* tettete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tettete.swift; sourceTree = "<group>"; };
+		A58CC61E2B1F6EC30010FBEC /* CalenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderView.swift; sourceTree = "<group>"; };
+		A58CC6202B1F70DC0010FBEC /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		A58CC6222B1F712E0010FBEC /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		A58CC6262B1F71F30010FBEC /* CalendarPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarPage.swift; sourceTree = "<group>"; };
+		A58CC6282B1F72160010FBEC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A58CC62A2B1F72410010FBEC /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +98,12 @@
 		A58CC5D72B1E1DA00010FBEC = {
 			isa = PBXGroup;
 			children = (
+				A58CC62C2B1F72450010FBEC /* viewmodel */,
+				A58CC6242B1F71580010FBEC /* model */,
+				A58CC6252B1F716B0010FBEC /* view */,
 				A58CC5E22B1E1DA00010FBEC /* FoxusApp */,
+				A58CC5FA2B1E1DA10010FBEC /* FoxusAppTests */,
+				A58CC6042B1E1DA10010FBEC /* FoxusAppUITests */,
 				A58CC5E12B1E1DA00010FBEC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,6 +126,8 @@
 				A58CC6182B1F3CE90010FBEC /* MainPage.swift */,
 				A58CC6142B1E1F310010FBEC /* OnBoarding.swift */,
 				A58CC6162B1E1F640010FBEC /* DataController.swift */,
+				A58CC61C2B1F64BD0010FBEC /* tettete.swift */,
+				A58CC61E2B1F6EC30010FBEC /* CalenderView.swift */,
 				A58CC5F12B1E1DA10010FBEC /* FoxusApp.entitlements */,
 				A58CC5E72B1E1DA10010FBEC /* Assets.xcassets */,
 				A58CC5F22B1E1DA10010FBEC /* Info.plist */,
@@ -116,6 +143,49 @@
 				A58CC5EA2B1E1DA10010FBEC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A58CC5FA2B1E1DA10010FBEC /* FoxusAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A58CC5FB2B1E1DA10010FBEC /* FoxusAppTests.swift */,
+			);
+			path = FoxusAppTests;
+			sourceTree = "<group>";
+		};
+		A58CC6042B1E1DA10010FBEC /* FoxusAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A58CC6052B1E1DA10010FBEC /* FoxusAppUITests.swift */,
+				A58CC6072B1E1DA10010FBEC /* FoxusAppUITestsLaunchTests.swift */,
+			);
+			path = FoxusAppUITests;
+			sourceTree = "<group>";
+		};
+		A58CC6242B1F71580010FBEC /* model */ = {
+			isa = PBXGroup;
+			children = (
+				A58CC6202B1F70DC0010FBEC /* Task.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		A58CC6252B1F716B0010FBEC /* view */ = {
+			isa = PBXGroup;
+			children = (
+				A58CC6222B1F712E0010FBEC /* Home.swift */,
+				A58CC6262B1F71F30010FBEC /* CalendarPage.swift */,
+				A58CC6282B1F72160010FBEC /* ContentView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		A58CC62C2B1F72450010FBEC /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				A58CC62A2B1F72410010FBEC /* TaskViewModel.swift */,
+			);
+			path = viewmodel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,10 +320,17 @@
 			files = (
 				A58CC6172B1E1F640010FBEC /* DataController.swift in Sources */,
 				A58CC5E62B1E1DA00010FBEC /* ContentView.swift in Sources */,
+				A58CC6292B1F72160010FBEC /* ContentView.swift in Sources */,
+				A58CC6232B1F712E0010FBEC /* Home.swift in Sources */,
 				A58CC5E42B1E1DA00010FBEC /* FoxusAppApp.swift in Sources */,
 				A58CC5F02B1E1DA10010FBEC /* FoxusApp.xcdatamodeld in Sources */,
+				A58CC62B2B1F72410010FBEC /* TaskViewModel.swift in Sources */,
 				A58CC6152B1E1F310010FBEC /* OnBoarding.swift in Sources */,
+				A58CC6272B1F71F30010FBEC /* CalendarPage.swift in Sources */,
 				A58CC6192B1F3CE90010FBEC /* MainPage.swift in Sources */,
+				A58CC61F2B1F6EC30010FBEC /* CalenderView.swift in Sources */,
+				A58CC6212B1F70DC0010FBEC /* Task.swift in Sources */,
+				A58CC61D2B1F64BD0010FBEC /* tettete.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +338,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A58CC5FC2B1E1DA10010FBEC /* FoxusAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +346,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A58CC6082B1E1DA10010FBEC /* FoxusAppUITestsLaunchTests.swift in Sources */,
+				A58CC6062B1E1DA10010FBEC /* FoxusAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

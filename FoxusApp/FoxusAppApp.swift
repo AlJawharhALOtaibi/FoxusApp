@@ -8,13 +8,13 @@
 import SwiftUI
 
 @main
-struct FoxusAppApp: App {
-    let persistenceController = PersistenceController.shared
-
+struct foxus_MC2App: App {
+@StateObject private var dataController = DataController()
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+           // ContentView()
+            MainPage()
+                .environment(\.managedObjectContext, dataController.container.viewContext)
         }
     }
 }
